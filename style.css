@@ -117,12 +117,12 @@ p {
         .resume-button {
             background-color: #007bff;
             color: white;
-            padding: 10px 15px;
+            padding: 1px 1px;
             text-decoration: none;
             border-radius: 5px;
             font-weight: bold;
             position: relative;
-            top: 20px;
+            top: 10px;
             left: 50px;
         }
 
