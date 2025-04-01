@@ -122,8 +122,8 @@ p {
             border-radius: 5px;
             font-weight: bold;
             position: relative;
-            top: 10px;
-            left: -40px;
+            top: 20px;
+            left: 40px;
         }
 
         .resume-button:hover {
@@ -142,8 +142,8 @@ p {
             height: 100px;
             border-radius: 50%;
             position: relative;
-            top: 10px;
-            right: -40px;
+            top: 20px;
+            right: 40px;
         }
 
 
