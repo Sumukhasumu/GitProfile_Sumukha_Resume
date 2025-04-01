@@ -103,3 +103,35 @@ p {
 .section p, .section ul, .section table {
     text-align: left;
 }
+
+.fa {
+    color: #0077b5; /* LinkedIn blue */
+    margin-right: 8px;
+}
+
+.profile-pic {
+    width: 150px; /* Adjust size as needed */
+    height: 150px;
+    border-radius: 50%; /* Makes it circular */
+    object-fit: cover; /* Ensures the image fits well */
+    display: block;
+    margin: 10px auto; /* Centers the image */
+    border: 3px solid #333; /* Optional: Adds a border */
+}
+
+.resume-button {
+    display: inline-block;
+    background-color: #007BFF; /* Blue color */
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.resume-button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
