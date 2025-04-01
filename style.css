@@ -23,11 +23,6 @@ div h4 {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-/* Center alignment for specific divs */
-.center-text {
-    text-align: center;
-}
-
 /* Skill Matrix Table */
 .skill-matrix h4 {
     margin-bottom: 10px;
@@ -109,18 +104,41 @@ p {
     margin-right: 8px;
 }
 
-/* Container for the layout */
-.container {
+        /* Main Container Layout */
+        .container {
             display: flex;
             justify-content: space-between;
             align-items: center;
-            position: relative;
             padding: 20px;
+            position: relative;
         }
 
-/* Profile Image (Right Corner) */
-.profile-pic {
-            width: 100px; /* Adjust size as needed */
+        /* Left Corner: Download Resume Button */
+        .resume-button {
+            background-color: #007bff;
+            color: white;
+            padding: 10px 15px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            position: absolute;
+            top: 10px;
+            left: 10px;
+        }
+
+        .resume-button:hover {
+            background-color: #0056b3;
+        }
+
+        /* Centered Name & Role */
+        .center-text {
+            flex-grow: 1;
+            text-align: center;
+        }
+
+        /* Right Corner: Profile Image */
+        .profile-pic {
+            width: 100px;
             height: 100px;
             border-radius: 50%;
             position: absolute;
@@ -128,19 +146,4 @@ p {
             right: 10px;
         }
 
-/* Download Resume Button (Left Corner) */
-.resume-button {
-            position: absolute;
-            top: 8px;
-            left: 8px;
-            background-color: #007bff;
-            color: white;
-            padding: 10px 15px;
-            text-decoration: none;
-            border-radius: 5px;
-            font-weight: bold;
-        }
 
-.resume-button:hover {
-            background-color: #0056b3;
-        }
